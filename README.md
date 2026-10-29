@@ -120,4 +120,4 @@ The lists are derived from these upstream projects. Merge from them periodically
 
 ## License
 
-[MIT](LICENSE) © 2026 PurplePatch Services. The upstream copyright notices are kept in the [LICENSE](LICENSE) file.
+[MIT](LICENSE) © 2026 PurplePatch Services. Upstream copyright notices are in [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES).
