@@ -109,9 +109,15 @@ python3 maintain.py lint --fix
 3. Run `lint` before committing (or in CI) to keep the files consistent.
 4. Review the diff: every change is one domain per line, so additions and removals are easy to spot.
 
-Good upstream sources to merge from periodically:
-
-- [disposable-email-domains/disposable-email-domains](https://github.com/disposable-email-domains/disposable-email-domains) (`disposable_email_blocklist.conf`)
-- [Kikobeats/free-email-domains](https://github.com/Kikobeats/free-email-domains) (`domains.json`)
-
 Before merging, check a few entries from the upstream list. A false positive on either list blocks or flags real users.
+
+## Sources
+
+The lists are derived from these upstream projects. Merge from them periodically to pick up new domains:
+
+- **Disposable:** [disposable-email-domains/disposable-email-domains](https://github.com/disposable-email-domains/disposable-email-domains) (`disposable_email_blocklist.conf`), CC0 1.0 (public domain)
+- **Free:** [Kikobeats/free-email-domains](https://github.com/Kikobeats/free-email-domains) (`domains.json`), MIT, © 2017 Kiko Beats
+
+## License
+
+[MIT](LICENSE) © 2026 PurplePatch Services. The upstream copyright notices are kept in the [LICENSE](LICENSE) file.
